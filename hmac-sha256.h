@@ -8,6 +8,7 @@
 #ifndef HMAC_SHA256_H
 #define HMAC_SHA256_H
 
+#include <stddef.h>
 #include <stdint.h>
 
 #define HMAC_SHA256_DIGEST_SIZE 32  /* Same as SHA-256's output size. */

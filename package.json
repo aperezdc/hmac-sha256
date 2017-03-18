@@ -1,0 +1,12 @@
+{
+  "name": "hmac-sha256",
+  "version": "0.1.0",
+  "repo": "aperezdc/hmac-sha256",
+  "description": "No-frills HMAC-SHA256 implementation in C",
+  "keywords": [ "hmac", "sha256", "sha2" ],
+  "src": [ "hmac-sha256.h", "hmac-sha256.c" ],
+  "dependencies": {
+    "aperezdc/apicheck": "0.1.1",
+    "jb55/sha256.c": "0.0.2"
+  }
+}
